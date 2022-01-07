@@ -9,6 +9,26 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+   //  кнопка animals__btn    btn-adopt   donate__btn
+   let btnAnimals = document.querySelector('.animals__btn');
+   let btnAdopt = document.querySelector('.btn-adopt');
+   let btnDonate = document.querySelector('.donate__btn');
+
+   btnAnimals.addEventListener('click', function () {
+      btnAnimals.classList.add('animals__btn--active');
+   });
+
+   btnAdopt.addEventListener('click', function () {
+      btnAdopt.classList.add('btn-adopt--active');
+   });
+
+   btnDonate.addEventListener('click', function () {
+      btnDonate.classList.add('donate__btn--active');
+   });
+
+
+
+
 
 
    // Меню бургер 

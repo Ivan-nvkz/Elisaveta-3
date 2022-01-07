@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
          lng: 33.17996,
          // layers: 'bluemarble',
          // attribution: '(c) NASA Blue Marble'
-      }, 9);
+      }, 9.3);
    // Add OSM tile leayer to the Leaflet map.
    // L.tileLayer(
    //    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
